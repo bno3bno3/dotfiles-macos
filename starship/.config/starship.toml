@@ -1,0 +1,25 @@
+format = """ $os$character$directory$git_branch"""
+
+add_newline = false
+
+[os]
+disabled = false
+style = "white"
+format = "[$symbol]($style) "
+
+[os.symbols]
+Macos = " "
+
+[character]
+success_symbol = "[➜](green)"
+error_symbol = "[➜](red)"
+format = "$symbol "
+
+[directory]
+
+style = "cyan"
+format = "[$path]($style) "
+
+[git_branch]
+format = "[git:\\(](blue)[$branch](red)[\\)](blue) "
+

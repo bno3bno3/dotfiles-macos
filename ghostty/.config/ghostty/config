@@ -1,0 +1,29 @@
+# fonts
+font-family = Monaco 
+font-size = 18
+
+copy-on-select = clipboard
+
+keybind = ctrl+==unbind
+keybind = ctrl++=unbind
+keybind = ctrl+-=unbind
+keybind = ctrl+0=unbind
+keybind = ctrl+,=unbind
+keybind = ctrl+shift+==increase_font_size:1
+keybind = ctrl+shift++=increase_font_size:1
+keybind = ctrl+shift+-=decrease_font_size:1
+keybind = ctrl+shift+0=reset_font_size
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
+keybind = ctrl+shift+enter=new_split:down
+
+resize-overlay = never
+
+theme = Tomorrow Night
+window-theme = ghostty
+window-titlebar-background = #1d1f21
+window-titlebar-foreground = #c5c8c6
+split-divider-color = #373b41
+macos-option-as-alt = true
+macos-titlebar-style = tabs
+key-remap = left_cmd=right_alt
