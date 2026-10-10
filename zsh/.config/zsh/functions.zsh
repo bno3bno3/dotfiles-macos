@@ -1,5 +1,5 @@
 # Proxy Management
-function proxy_on() {
+function proxyon() {
     export http_proxy="http://127.0.0.1:7897"
     export https_proxy="http://127.0.0.1:7897"
     export all_proxy="socks5://127.0.0.1:7897"
@@ -7,7 +7,7 @@ function proxy_on() {
     echo -e "\033[32mProxy On\033[0m"
 }
 
-function proxy_off() {
+function proxyoff() {
     unset http_proxy
     unset https_proxy
     unset all_proxy
